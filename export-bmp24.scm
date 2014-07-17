@@ -42,9 +42,10 @@
 	"Baudouin Feildel"
 	"Juillet 2014"
 	"*"
-	SF-IMAGE   "Image"          0
-	SF-DIRNAME "Dossier"        "C:/"
-	SF-STRING  "Nom du fichier" "image.bmp"
+	; Champ de la boite de dialogue
+	SF-IMAGE   "Image"          0           ; Utilise le fichier ouvert et actif
+	SF-DIRNAME "Dossier"        "C:/"       ; Ajoute un champ de sélection de dossier
+	SF-STRING  "Nom du fichier" "image.bmp" ; Ajoute un champ texte
 	; SF-FILENAME ne permet pas de créer de nouveau fichier
 	; d'ou l'utilisation de SF-DIRNAME et SF-STRING
 	;SF-FILENAME "Fichier" ""
