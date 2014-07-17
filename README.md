@@ -9,6 +9,14 @@ Méthode
 =======
 Ce script fait une copie de l'image en cours. La copie est applatie, et enregistrée dans le fichier indiqué par l'utilisateur.
 
+Installation
+============
+Pour installer ce plugin il vous suffit de copier le fichier export-bmp24.scm dans votre le répertoire `~/.gimp/scripts/`
+
+Utilisation
+===========
+L'export est accessible via une entrée nommée "Export BMP 24 bit" dans le menu "Fichier"
+
 Licence
 =======
 Ce travail est placé sous licence GPLv3+
