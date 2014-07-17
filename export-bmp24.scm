@@ -17,8 +17,6 @@
 				)
 			)
 		)
-		; Copier l'image actuelle
-		(set! image (car (gimp-image-duplicate img)))
 
 		; Applatir l'image
 		(gimp-image-flatten image)
